@@ -1,0 +1,60 @@
+.testimotial {
+  box-sizing: border-box;
+  padding: 100px 150px;
+  height: auto;
+  width: 100%;
+}
+
+.testimotial-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimotial-quote-sign {
+  margin-bottom: 65px;
+}
+.testimotial-quote {
+  color: rgba(74, 74, 74, 1);
+  font-family: "Roboto Condensed";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42.19px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blue-words {
+  color: rgba(43, 64, 116, 1);
+}
+
+.testimotial-quote-author {
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgba(74, 74, 74, 1);
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+  .testimotial {
+    padding: 100px 40px;
+  }
+  .testimotial-quote {
+    font-size: 32px;
+  }
+}
+@media (max-width: 640px) {
+}
+@media (max-width: 321px) {
+  .testimotial {
+    padding: 100px 17px;
+  }
+  .testimotial-quote {
+    font-size: 24px;
+  }
+}

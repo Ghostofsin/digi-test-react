@@ -1,0 +1,16 @@
+.pagination {
+  /* margin-top: 126px; */
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.oval {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.oval-full {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}

@@ -1,0 +1,70 @@
+.promo {
+  box-sizing: border-box;
+  padding: 0 150px;
+  height: 192px;
+  width: 100%;
+  background-color: rgba(43, 64, 116, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promo button {
+  color: rgba(43, 64, 116, 1);
+  background-color: rgba(255, 255, 255, 1);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  border-radius: 2px;
+  width: 200px;
+  height: 50px;
+}
+
+.bold-text {
+  color: rgba(255, 255, 255, 1);
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+}
+
+.simple-text {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: left;
+}
+
+@media (max-width: 1024px) {
+  .promo {
+    padding: 30px 70px;
+  }
+  .simple-text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 640px) {
+  .promo {
+    flex-direction: column;
+    height: 254px;
+  }
+  .bold-text {
+    line-height: 24px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 321px) {
+  .promo {
+    flex-direction: column;
+    height: 301px;
+  }
+}
